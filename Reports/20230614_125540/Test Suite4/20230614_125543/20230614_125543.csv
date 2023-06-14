@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite4,Windows - Chrome 110.0.0.0,,,2023-06-14 12:59:18,2023-06-14 13:02:39,3m - 20.943s,PASSED
+,,,,,,,
+Test Cases/Test Case3,Windows - Chrome 110.0.0.0,,,2023-06-14 12:59:18,2023-06-14 13:00:57,1m - 38.948s,PASSED
+"openBrowser("""")",Windows - Chrome 110.0.0.0,,,2023-06-14 12:59:19,2023-06-14 13:00:23,1m - 4.518s,PASSED
+maximizeWindow(),Windows - Chrome 110.0.0.0,,,2023-06-14 13:00:23,2023-06-14 13:00:24,0.895s,PASSED
+"navigateToUrl(""http://www.webdriveruniversity.com/Contact-Us/contactus.html"")",Windows - Chrome 110.0.0.0,,,2023-06-14 13:00:24,2023-06-14 13:00:26,1.980s,PASSED
+"setText(findTestObject(""Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_first_name""), ""Nikhita"")",Windows - Chrome 110.0.0.0,,,2023-06-14 13:00:26,2023-06-14 13:00:32,6.200s,PASSED
+"setText(findTestObject(""Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_last_name""), ""Ganvir"")",Windows - Chrome 110.0.0.0,,,2023-06-14 13:00:32,2023-06-14 13:00:38,5.750s,PASSED
+"setText(findTestObject(""Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_email""), ""abc@gmail.com"")",Windows - Chrome 110.0.0.0,,,2023-06-14 13:00:38,2023-06-14 13:00:44,6.019s,PASSED
+"setText(findTestObject(""Object Repository/contacUS/Page_WebDriver  Contact Us/textarea_CONTACT US_message""), ""I am learning Katalon."")",Windows - Chrome 110.0.0.0,,,2023-06-14 13:00:44,2023-06-14 13:00:50,5.506s,PASSED
+"click(findTestObject(""Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_contact_button""))",Windows - Chrome 110.0.0.0,,,2023-06-14 13:00:50,2023-06-14 13:00:53,3.427s,PASSED
+"click(findTestObject(""Object Repository/contacUS/Page_Gianni Bruno - Designer/h1_Thank You for your Message""))",Windows - Chrome 110.0.0.0,,,2023-06-14 13:00:53,2023-06-14 13:00:56,2.665s,PASSED
+closeBrowser(),Windows - Chrome 110.0.0.0,,,2023-06-14 13:00:56,2023-06-14 13:00:57,1.377s,PASSED
+,,,,,,,
+Test Cases/Test Case4,Windows - Chrome 110.0.0.0,,,2023-06-14 13:00:57,2023-06-14 13:02:39,1m - 41.559s,PASSED
+"openBrowser("""")",Windows - Chrome 110.0.0.0,,,2023-06-14 13:00:57,2023-06-14 13:02:11,1m - 13.885s,PASSED
+maximizeWindow(),Windows - Chrome 110.0.0.0,,,2023-06-14 13:02:11,2023-06-14 13:02:12,0.774s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Windows - Chrome 110.0.0.0,,,2023-06-14 13:02:12,2023-06-14 13:02:15,2.516s,PASSED
+"setText(findTestObject(""Object Repository/orangeHRM/Page_OrangeHRM/input_Username_username""), ""Admin"")",Windows - Chrome 110.0.0.0,,,2023-06-14 13:02:15,2023-06-14 13:02:20,5.490s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/orangeHRM/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Windows - Chrome 110.0.0.0,,,2023-06-14 13:02:20,2023-06-14 13:02:24,3.773s,PASSED
+"click(findTestObject(""Object Repository/orangeHRM/Page_OrangeHRM/button_Login""))",Windows - Chrome 110.0.0.0,,,2023-06-14 13:02:24,2023-06-14 13:02:29,5.565s,PASSED
+"click(findTestObject(""Object Repository/orangeHRM/Page_OrangeHRM/h6_Dashboard""))",Windows - Chrome 110.0.0.0,,,2023-06-14 13:02:29,2023-06-14 13:02:33,3.557s,PASSED
+closeBrowser(),Windows - Chrome 110.0.0.0,,,2023-06-14 13:02:33,2023-06-14 13:02:39,5.648s,PASSED

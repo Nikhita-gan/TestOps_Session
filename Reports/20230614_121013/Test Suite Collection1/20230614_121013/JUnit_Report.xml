@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Collection1" time="383.076" tests="4" failures="0" errors="0">
+   <testsuite name="Test Suite1" tests="2" failures="0" errors="0" time="159.691" skipped="0" timestamp="2023-06-14 12:10:30" hostname="nikhita.ganvir - INBL01LAP30757.brd.g-c-i.com" id="Test Suites/Test Suite1">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\nikhita.ganvir\\git\\TestOps_Session\\Reports\\20230614_121013\\Test Suite1\\20230614_121014"/>
+         <property name="logFiles" value="C:\\Users\\nikhita.ganvir\\git\\TestOps_Session\\Reports\\20230614_121013\\Test Suite1\\20230614_121014\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nikhita.ganvir - INBL01LAP30757.brd.g-c-i.com"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;110.0.5481.30 (aedb656755c469651f01505a4f15e153fc606a1e-refs/branch-heads/5481@{#191})&quot;,
+    &quot;userDataDir&quot;: &quot;C:\\Program Files (x86)\\scoped_dir7044_2051569064&quot;
+  },
+  &quot;se:cdpVersion&quot;: &quot;110.0.5481.104&quot;,
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;platform&quot;: &quot;WINDOWS&quot;,
+  &quot;se:cdp&quot;: &quot;ws://10.0.2.15:4444/session/545dac92058d3a726b47d5b18eee5987/se/cdp&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:49845&quot;
+  },
+  &quot;requestId&quot;: &quot;4f624bc5-21af-48a4-b947-cf4e4eed994a&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserVersion&quot;: &quot;110.0.0.0&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;unlimitedExecutionMinutes&quot;: true,
+    &quot;userId&quot;: 1220243,
+    &quot;organizationId&quot;: &quot;1191551&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;runFromTestCloud&quot;: true,
+    &quot;usingTunnel&quot;: false
+  },
+  &quot;platformName&quot;: &quot;WINDOWS&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 110.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="545dac92058d3a726b47d5b18eee5987"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case1" time="76.493" classname="Test Cases/Test Case1" status="PASSED">
+         <system-out><![CDATA[2023-06-14 12:10:31 - [TEST_CASE][PASSED] - Test Cases/Test Case1: Test Cases/Test Case1
+
+2023-06-14 12:10:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-14 12:10:33 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2023-06-14 12:10:33 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2023-06-14 12:10:33 - [MESSAGE][INFO] - User set preference: ['browserVersion', '110']
+
+2023-06-14 12:10:33 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1191551, tunnelId=, usingTunnel=false}']
+
+2023-06-14 12:10:33 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-06-14 12:10:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-14 12:11:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-14 12:11:39 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com"): Navigate to 'https://www.google.com' successfully
+
+2023-06-14 12:11:42 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com' successfully
+
+2023-06-14 12:11:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-14 12:11:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-14 12:11:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-14 12:11:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case2" time="82.699" classname="Test Cases/Test Case2" status="PASSED">
+         <system-out><![CDATA[2023-06-14 12:11:47 - [TEST_CASE][PASSED] - Test Cases/Test Case2: Test Cases/Test Case2
+
+2023-06-14 12:11:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-14 12:11:48 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2023-06-14 12:11:48 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2023-06-14 12:11:48 - [MESSAGE][INFO] - User set preference: ['browserVersion', '110']
+
+2023-06-14 12:11:48 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1191551, tunnelId=, usingTunnel=false}']
+
+2023-06-14 12:11:48 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-06-14 12:11:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-14 12:13:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-14 12:13:00 - [TEST_STEP][PASSED] - navigateToUrl("https://www.youtube.com"): Navigate to 'https://www.youtube.com' successfully
+
+2023-06-14 12:13:04 - [MESSAGE][PASSED] - Navigate to 'https://www.youtube.com' successfully
+
+2023-06-14 12:13:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-14 12:13:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-14 12:13:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-14 12:13:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-14 12:10:30 - [TEST_SUITE][PASSED] - Test Suite1: Test Cases/Test Case2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Test Suite2" tests="2" failures="0" errors="0" time="178.737" skipped="0" timestamp="2023-06-14 12:13:37" hostname="nikhita.ganvir - INBL01LAP30757.brd.g-c-i.com" id="Test Suites/Test Suite2">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\nikhita.ganvir\\git\\TestOps_Session\\Reports\\20230614_121013\\Test Suite2\\20230614_121016"/>
+         <property name="logFiles" value="C:\\Users\\nikhita.ganvir\\git\\TestOps_Session\\Reports\\20230614_121013\\Test Suite2\\20230614_121016\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nikhita.ganvir - INBL01LAP30757.brd.g-c-i.com"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;110.0.5481.30 (aedb656755c469651f01505a4f15e153fc606a1e-refs/branch-heads/5481@{#191})&quot;,
+    &quot;userDataDir&quot;: &quot;C:\\Program Files (x86)\\scoped_dir6720_1782988016&quot;
+  },
+  &quot;se:cdpVersion&quot;: &quot;110.0.5481.104&quot;,
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;platform&quot;: &quot;WINDOWS&quot;,
+  &quot;se:cdp&quot;: &quot;ws://10.0.2.15:4444/session/d3b452f9cb8fd9fb6257f3a3f5b297de/se/cdp&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:49846&quot;
+  },
+  &quot;requestId&quot;: &quot;8494b854-1ac6-411a-b348-04127255a909&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserVersion&quot;: &quot;110.0.0.0&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;unlimitedExecutionMinutes&quot;: true,
+    &quot;userId&quot;: 1220243,
+    &quot;organizationId&quot;: &quot;1191551&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;runFromTestCloud&quot;: true,
+    &quot;usingTunnel&quot;: false
+  },
+  &quot;platformName&quot;: &quot;WINDOWS&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 110.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="d3b452f9cb8fd9fb6257f3a3f5b297de"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case1" time="76.318" classname="Test Cases/Test Case1" status="PASSED">
+         <system-out><![CDATA[2023-06-14 12:13:38 - [TEST_CASE][PASSED] - Test Cases/Test Case1: Test Cases/Test Case1
+
+2023-06-14 12:13:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-14 12:13:39 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2023-06-14 12:13:39 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2023-06-14 12:13:39 - [MESSAGE][INFO] - User set preference: ['browserVersion', '110']
+
+2023-06-14 12:13:39 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1191551, tunnelId=, usingTunnel=false}']
+
+2023-06-14 12:13:39 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-06-14 12:13:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-14 12:14:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-14 12:14:44 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com"): Navigate to 'https://www.google.com' successfully
+
+2023-06-14 12:14:48 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com' successfully
+
+2023-06-14 12:14:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-14 12:14:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-14 12:14:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-14 12:14:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Case3" time="101.854" classname="Test Cases/Test Case3" status="PASSED">
+         <system-out><![CDATA[2023-06-14 12:14:54 - [TEST_CASE][PASSED] - Test Cases/Test Case3: Test Cases/Test Case3
+
+2023-06-14 12:14:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-14 12:14:54 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2023-06-14 12:14:54 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2023-06-14 12:14:54 - [MESSAGE][INFO] - User set preference: ['browserVersion', '110']
+
+2023-06-14 12:14:54 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1191551, tunnelId=, usingTunnel=false}']
+
+2023-06-14 12:14:54 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-06-14 12:14:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-14 12:16:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-14 12:16:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-14 12:16:03 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-14 12:16:03 - [TEST_STEP][PASSED] - navigateToUrl("http://www.webdriveruniversity.com/Contact-Us/contactus.html"): Navigate to 'http://www.webdriveruniversity.com/Contact-Us/contactus.html' successfully
+
+2023-06-14 12:16:05 - [MESSAGE][PASSED] - Navigate to 'http://www.webdriveruniversity.com/Contact-Us/contactus.html' successfully
+
+2023-06-14 12:16:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_first_name"), "Nikhita"): Text 'Nikhita' is set on object 'Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_first_name'
+
+2023-06-14 12:16:10 - [MESSAGE][PASSED] - Text 'Nikhita' is set on object 'Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_first_name'
+
+2023-06-14 12:16:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_last_name"), "Ganvir"): Text 'Ganvir' is set on object 'Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_last_name'
+
+2023-06-14 12:16:17 - [MESSAGE][PASSED] - Text 'Ganvir' is set on object 'Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_last_name'
+
+2023-06-14 12:16:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_email"), "abc@gmail.com"): Text 'abc@gmail.com' is set on object 'Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_email'
+
+2023-06-14 12:16:22 - [MESSAGE][PASSED] - Text 'abc@gmail.com' is set on object 'Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_email'
+
+2023-06-14 12:16:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/contacUS/Page_WebDriver  Contact Us/textarea_CONTACT US_message"), "I am learning Katalon."): Text 'I am learning Katalon.' is set on object 'Object Repository/contacUS/Page_WebDriver  Contact Us/textarea_CONTACT US_message'
+
+2023-06-14 12:16:28 - [MESSAGE][PASSED] - Text 'I am learning Katalon.' is set on object 'Object Repository/contacUS/Page_WebDriver  Contact Us/textarea_CONTACT US_message'
+
+2023-06-14 12:16:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_contact_button")): Object: 'Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_contact_button' is clicked on
+
+2023-06-14 12:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_contact_button' is clicked on
+
+2023-06-14 12:16:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/contacUS/Page_Gianni Bruno - Designer/h1_Thank You for your Message")): Object: 'Object Repository/contacUS/Page_Gianni Bruno - Designer/h1_Thank You for your Message' is clicked on
+
+2023-06-14 12:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/contacUS/Page_Gianni Bruno - Designer/h1_Thank You for your Message' is clicked on
+
+2023-06-14 12:16:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-14 12:16:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-14 12:13:37 - [TEST_SUITE][PASSED] - Test Suite2: Test Cases/Test Case3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

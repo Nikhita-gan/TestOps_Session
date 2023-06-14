@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite2,Windows - Chrome 110.0.0.0,,,2023-06-14 11:36:21,2023-06-14 11:39:36,3m - 15.538s,PASSED
+,,,,,,,
+Test Cases/Test Case1,Windows - Chrome 110.0.0.0,,,2023-06-14 11:36:21,2023-06-14 11:37:43,1m - 21.690s,PASSED
+"openBrowser("""")",Windows - Chrome 110.0.0.0,,,2023-06-14 11:36:22,2023-06-14 11:37:32,1m - 10.405s,PASSED
+"navigateToUrl(""https://www.google.com"")",Windows - Chrome 110.0.0.0,,,2023-06-14 11:37:32,2023-06-14 11:37:36,3.953s,PASSED
+delay(3),Windows - Chrome 110.0.0.0,,,2023-06-14 11:37:36,2023-06-14 11:37:39,3.050s,PASSED
+closeBrowser(),Windows - Chrome 110.0.0.0,,,2023-06-14 11:37:39,2023-06-14 11:37:43,3.588s,PASSED
+,,,,,,,
+Test Cases/Test Case3,Windows - Chrome 110.0.0.0,,,2023-06-14 11:37:43,2023-06-14 11:39:36,1m - 53.313s,PASSED
+"openBrowser("""")",Windows - Chrome 110.0.0.0,,,2023-06-14 11:37:43,2023-06-14 11:39:02,1m - 18.667s,PASSED
+maximizeWindow(),Windows - Chrome 110.0.0.0,,,2023-06-14 11:39:02,2023-06-14 11:39:03,0.779s,PASSED
+"navigateToUrl(""http://www.webdriveruniversity.com/Contact-Us/contactus.html"")",Windows - Chrome 110.0.0.0,,,2023-06-14 11:39:03,2023-06-14 11:39:05,2.374s,PASSED
+"setText(findTestObject(""Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_first_name""), ""Nikhita"")",Windows - Chrome 110.0.0.0,,,2023-06-14 11:39:05,2023-06-14 11:39:11,5.894s,PASSED
+"setText(findTestObject(""Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_last_name""), ""Ganvir"")",Windows - Chrome 110.0.0.0,,,2023-06-14 11:39:11,2023-06-14 11:39:17,5.782s,PASSED
+"setText(findTestObject(""Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_email""), ""abc@gmail.com"")",Windows - Chrome 110.0.0.0,,,2023-06-14 11:39:17,2023-06-14 11:39:23,5.826s,PASSED
+"setText(findTestObject(""Object Repository/contacUS/Page_WebDriver  Contact Us/textarea_CONTACT US_message""), ""I am learning Katalon."")",Windows - Chrome 110.0.0.0,,,2023-06-14 11:39:23,2023-06-14 11:39:28,5.379s,PASSED
+"click(findTestObject(""Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_contact_button""))",Windows - Chrome 110.0.0.0,,,2023-06-14 11:39:28,2023-06-14 11:39:32,3.536s,PASSED
+"click(findTestObject(""Object Repository/contacUS/Page_Gianni Bruno - Designer/h1_Thank You for your Message""))",Windows - Chrome 110.0.0.0,,,2023-06-14 11:39:32,2023-06-14 11:39:34,2.663s,PASSED
+closeBrowser(),Windows - Chrome 110.0.0.0,,,2023-06-14 11:39:34,2023-06-14 11:39:36,1.891s,PASSED

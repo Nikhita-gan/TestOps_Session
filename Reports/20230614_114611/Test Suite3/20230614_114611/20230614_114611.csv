@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite3,Windows - Chrome 110.0.0.0,,,2023-06-14 11:46:24,2023-06-14 11:49:37,3m - 13.030s,PASSED
+,,,,,,,
+Test Cases/Test Case2,Windows - Chrome 110.0.0.0,,,2023-06-14 11:46:24,2023-06-14 11:47:56,1m - 31.858s,PASSED
+"openBrowser("""")",Windows - Chrome 110.0.0.0,,,2023-06-14 11:46:25,2023-06-14 11:47:41,1m - 16.445s,PASSED
+"navigateToUrl(""https://www.youtube.com"")",Windows - Chrome 110.0.0.0,,,2023-06-14 11:47:41,2023-06-14 11:47:47,5.056s,PASSED
+delay(3),Windows - Chrome 110.0.0.0,,,2023-06-14 11:47:47,2023-06-14 11:47:50,3.047s,PASSED
+closeBrowser(),Windows - Chrome 110.0.0.0,,,2023-06-14 11:47:50,2023-06-14 11:47:56,6.632s,PASSED
+,,,,,,,
+Test Cases/Test Case4,Windows - Chrome 110.0.0.0,,,2023-06-14 11:47:56,2023-06-14 11:49:37,1m - 40.682s,PASSED
+"openBrowser("""")",Windows - Chrome 110.0.0.0,,,2023-06-14 11:47:57,2023-06-14 11:49:12,1m - 15.001s,PASSED
+maximizeWindow(),Windows - Chrome 110.0.0.0,,,2023-06-14 11:49:12,2023-06-14 11:49:13,0.805s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Windows - Chrome 110.0.0.0,,,2023-06-14 11:49:13,2023-06-14 11:49:15,2.706s,PASSED
+"setText(findTestObject(""Object Repository/orangeHRM/Page_OrangeHRM/input_Username_username""), ""Admin"")",Windows - Chrome 110.0.0.0,,,2023-06-14 11:49:15,2023-06-14 11:49:22,7.079s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/orangeHRM/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Windows - Chrome 110.0.0.0,,,2023-06-14 11:49:22,2023-06-14 11:49:26,3.805s,PASSED
+"click(findTestObject(""Object Repository/orangeHRM/Page_OrangeHRM/button_Login""))",Windows - Chrome 110.0.0.0,,,2023-06-14 11:49:26,2023-06-14 11:49:29,2.886s,PASSED
+"click(findTestObject(""Object Repository/orangeHRM/Page_OrangeHRM/h6_Dashboard""))",Windows - Chrome 110.0.0.0,,,2023-06-14 11:49:29,2023-06-14 11:49:34,5.320s,PASSED
+closeBrowser(),Windows - Chrome 110.0.0.0,,,2023-06-14 11:49:34,2023-06-14 11:49:37,2.482s,PASSED

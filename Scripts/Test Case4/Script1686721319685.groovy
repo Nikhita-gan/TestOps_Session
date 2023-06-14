@@ -21,19 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://www.webdriveruniversity.com/Contact-Us/contactus.html')
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_first_name'), 'Nikhita')
+WebUI.setText(findTestObject('Object Repository/orangeHRM/Page_OrangeHRM/input_Username_username'), 'Admin')
 
-WebUI.setText(findTestObject('Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_last_name'), 'Ganvir')
+WebUI.setEncryptedText(findTestObject('Object Repository/orangeHRM/Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.setText(findTestObject('Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_email'), 'abc@gmail.com')
+WebUI.click(findTestObject('Object Repository/orangeHRM/Page_OrangeHRM/button_Login'))
 
-WebUI.setText(findTestObject('Object Repository/contacUS/Page_WebDriver  Contact Us/textarea_CONTACT US_message'), 'I am learning Katalon.')
-
-WebUI.click(findTestObject('Object Repository/contacUS/Page_WebDriver  Contact Us/input_CONTACT US_contact_button'))
-
-WebUI.click(findTestObject('Object Repository/contacUS/Page_Gianni Bruno - Designer/h1_Thank You for your Message'))
+WebUI.click(findTestObject('Object Repository/orangeHRM/Page_OrangeHRM/h6_Dashboard'))
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite1,Chrome 114.0.0.0,,,2023-06-14 11:30:12,2023-06-14 11:30:37,24.686s,PASSED
+,,,,,,,
+Test Cases/Test Case1,Chrome 114.0.0.0,,,2023-06-14 11:30:13,2023-06-14 11:30:25,12.464s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-14 11:30:13,2023-06-14 11:30:18,4.505s,PASSED
+"navigateToUrl(""https://www.google.com"")",Chrome 114.0.0.0,,,2023-06-14 11:30:18,2023-06-14 11:30:20,2.708s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-14 11:30:20,2023-06-14 11:30:23,3.070s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-14 11:30:23,2023-06-14 11:30:25,1.696s,PASSED
+,,,,,,,
+Test Cases/Test Case2,Chrome 114.0.0.0,,,2023-06-14 11:30:25,2023-06-14 11:30:37,11.840s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-14 11:30:25,2023-06-14 11:30:27,1.874s,PASSED
+"navigateToUrl(""https://www.youtube.com"")",Chrome 114.0.0.0,,,2023-06-14 11:30:27,2023-06-14 11:30:33,5.433s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-14 11:30:33,2023-06-14 11:30:36,3.026s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-14 11:30:36,2023-06-14 11:30:37,1.166s,PASSED

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TestSuiteCollectionEntity>
+<ReportCollectionEntity>
    <description></description>
-   <name>Test Suite Collection1</name>
+   <name>20230614_125540</name>
    <tag></tag>
-   <delayBetweenInstances>0</delayBetweenInstances>
-   <executionMode>SEQUENTIAL</executionMode>
-   <maxConcurrentInstances>8</maxConcurrentInstances>
-   <testSuiteRunConfigurations>
-      <TestSuiteRunConfiguration>
-         <configuration>
+   <displayName>20230614_125540</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230614_125540/Test Suite1/20230614_125541</reportLocation>
+         <runConfigDescription>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>true</requireConfigurationData>
@@ -28,12 +27,12 @@
                </entry>
             </runConfigurationData>
             <runConfigurationId>TestCloud</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Test Suite1</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230614_125540/Test Suite4/20230614_125543</reportLocation>
+         <runConfigDescription>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>true</requireConfigurationData>
@@ -53,9 +52,9 @@
                </entry>
             </runConfigurationData>
             <runConfigurationId>TestCloud</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Test Suite2</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-   </testSuiteRunConfigurations>
-</TestSuiteCollectionEntity>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Test Suite Collection4</testSuiteCollectionId>
+</ReportCollectionEntity>
